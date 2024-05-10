@@ -25,7 +25,7 @@ class dFNCOptions:
             default=None,
             type=str,
             label="Regression covariates"
-        ),)
+        ),),
         dfnc=dict(
             method_type=dict(
                 default="none",
@@ -43,7 +43,7 @@ class dFNCOptions:
             window_type=dict(
                 default="tukey",
                 values=["tukey", "gaussian"]
-            )
+            ),
             window_alpha=dict(
                 default=3,
                 type=float

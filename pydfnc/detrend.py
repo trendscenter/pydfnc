@@ -11,5 +11,4 @@ def detrend(y, num_DataSets=1, detrendNumber=0):
     nColumns = y.shape[1]
     b = np.zeros(nTerms*num_DataSets, nColumns)
     for nColumns in range(y.shape[1]):
-
-    pass
+        pass
